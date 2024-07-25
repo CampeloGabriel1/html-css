@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+header {
+    margin: auto;
+    background-color: darkgray;
+}
+nav {
+    background-color: aqua;
+    padding: 3px;
+    box-shadow: 1px 1px 1px black;
+}
+nav > a {
+    text-decoration: none;
+    text-align: center;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+article {
+    background-color: lightgray;
+    padding: 5px;
+}
+article > aside {
+    background-color: rgb(131, 131, 131);
+}
